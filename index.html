@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuideZzo | Explore More, Worry Less</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5faf7;
+            color: #18352b;
+        }
+
+        header {
+            background: #124b3a;
+            color: white;
+            padding: 22px 16px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 18px;
+            padding: 15px 10px;
+            background: white;
+        }
+
+        nav a {
+            color: #124b3a;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #d7f3df, #b2e3d0);
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #124b3a;
+            color: white;
+            padding: 13px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 35px 18px;
+            text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 12px;
+            font-size: 25px;
+        }
+
+        .section > p {
+            color: #53665d;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 23px 12px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #18352b12;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            font-size: 17px;
+        }
+
+        .card p {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #53665d;
+        }
+
+        .icon {
+            font-size: 30px;
+        }
+
+        .destination {
+            background: #e6f3eb;
+        }
+
+        footer {
+            background: #124b3a;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>GuideZzo</h1>
+        <p>Your Journey, Your Budget, Your Way.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#explore">Explore</a>
+        <a href="#plan">Plan a Trip</a>
+        <a href="#features">Discover</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Explore More, Worry Less.</h2>
+        <p>
+            Discover beautiful places, plan memorable trips,
+            and explore new experiences without breaking your budget.
+        </p>
+        <a href="#plan" class="button">Start Exploring</a>
+    </section>
+
+    <section class="section destination" id="explore">
+        <h2>Discover Goa</h2>
+        <p>From peaceful nature spots to beautiful beaches, your next adventure starts here.</p>
+
+        <div class="cards">
+            <div class="card">
+                <div class="icon">🏖️</div>
+                <h3>Hidden Gems</h3>
+                <p>Discover beautiful places beyond the usual tourist spots.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🌿</div>
+                <h3>Nature Escapes</h3>
+                <p>Explore waterfalls, forests, and peaceful surroundings.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏛️</div>
+                <h3>Culture & Heritage</h3>
+                <p>Experience Goa's traditions, history, and local culture.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="plan">
+        <h2>Plan Your Perfect Trip</h2>
+        <p>Everything you need to start planning your next outing.</p>
+
+        <div class="cards" id="features">
+            <div class="card">
+                <div class="icon">🚌</div>
+                <h3>Transport</h3>
+                <p>Explore travel and transport options.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏨</div>
+                <h3>Stays</h3>
+                <p>Discover accommodation options for your trip.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🍽️</div>
+                <h3>Food</h3>
+                <p>Find local food and places to eat.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🌾</div>
+                <h3>Farm Outings</h3>
+                <p>Explore farm day-outs and night-out experiences.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🙏</div>
+                <h3>Devotional</h3>
+                <p>Discover temples and plan spiritual visits.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">💰</div>
+                <h3>Budget Trips</h3>
+                <p>Start planning adventures that suit your budget.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>GuideZzo</h2>
+        <p>Discover places. Create memories.</p>
+        <p>Our journey starts in Goa!</p>
+    </footer>
+
+</body>
+</html>
